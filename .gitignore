@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Secrets & Credentials
+*.key
+deepgram.key
+vault.enc
+auth.json
+wifi_config.json
+
+# Firmware Binaries
+*.bin
+
+# macOS / OS metadata
+.DS_Store
+._*
+
+# IDE & Editor
+.vscode/
+.idea/
+
+# Hardware test scripts
+keyboard_test/
+mic_test/
+screen_test/
